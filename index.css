@@ -1,0 +1,217 @@
+.header {
+    background: #f7f7f7;
+    padding: 10px 0;
+}
+
+.navbar {
+    background: #28a745;
+    height: 60px; 
+    display: flex;
+    align-items: center;
+}
+
+.navbar-brand {
+    color: #fff;
+}
+
+.navbar-nav .nav-link {
+    color: #fff;
+}
+
+.navbar-logo {
+    max-width: 60px;   
+    height: auto;     
+    vertical-align: middle;
+}
+
+
+.hero-section {
+    background: url('images/banner.png') no-repeat center center;
+    background-size: contain; 
+    background-attachment: fixed; 
+    color: #fff;
+    padding: 50px 0; 
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.hero-section .container {
+    position: absolute;
+    color: #000000;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.category-section {
+    padding: 60px 0;
+}
+
+.category-section h2 {
+    margin-bottom: 30px;
+}
+
+.category-section .category-item {
+    text-align: center;
+    margin-bottom: 30px;
+    transition: transform 0.3s;
+}
+
+.category-section .category-item:hover { /*When user hovers over an element with the class category-item inside the category-section, the category-item scales up to 110% of its original*/
+    transform: scale(1.1);
+}
+
+.category-section .product-list { /*All elements with the class product-list inside the category-section are initially hidden from view*/
+    display: none;
+}
+
+.category-section .category-item:hover+.product-list {/*When a user hovers over a category-item, the CSS checks if there is a sibling product-list element immediately following it.*/
+    display: block;
+}
+
+.category-item img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+.category-item h4 {
+    margin-top: 10px;
+}
+.category-item {
+    cursor: pointer;
+}
+.product-section img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+.product-section .row {
+    margin-top: 20px;
+}
+
+.product-card {
+    border: 1px solid #28a745;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.product-card img{
+    width: 80px;
+    height: auto;
+}
+
+.features-section {
+    padding: 60px 0;
+    background: #f7f7f7;
+}
+
+.features-section .container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+/*stylins to the feature items in a section to be same spaced with centered text and adds a vertical separator line between each item, except the last one.*/
+.features-section .feature-item {
+    text-align: center;
+    position: relative;
+    padding: 20px 40px; 
+    flex: 1;
+    min-width: 200px; 
+}
+
+.features-section .feature-item:not(:last-child)::after {
+    content: ""; /*Adds an empty pseudo-element after each .feature-item that is not the last one.*/
+    position: absolute;
+    top: 10%;
+    right: 0;
+    width: 1px;
+    height: 80%;
+    background: #ccc;
+}
+
+.juice-section {
+    padding: 10px 0; 
+}
+
+.container {
+    padding: 0; 
+}
+
+.row {
+    margin: 0; 
+    height: auto;
+}
+
+.image-container {
+    padding: 10px; 
+    text-align: center; 
+}
+
+.image-container img {
+    max-width: 80%; 
+    height: auto; 
+}
+
+
+.newsletter-section {
+    background: #28a745;
+    color: #fff;
+    padding: 30px 0;
+    text-align: center;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.newsletter-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 800px; 
+    margin: 0 auto;
+}
+
+.newsletter-content h2 {
+    margin: 0;
+    flex: 1; 
+}
+
+.newsletter-content form {
+    display: flex;
+    flex: 1; 
+    justify-content: flex-end; 
+}
+
+.form-control {
+    margin-right: 10px; 
+    border-radius: 20px; 
+    padding: 10px 15px; 
+}
+
+.btn-primary {
+    border-radius: 20px; 
+    padding: 10px 20px;
+}
+
+.footer {
+    background: #f7f7f7;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.product-card-card {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden; 
+}
+
