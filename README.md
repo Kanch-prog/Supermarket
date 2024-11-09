@@ -4,9 +4,11 @@
 
 ![screencapture-localhost-supermarket-display-products-php-2024-11-09-16_42_50](https://github.com/user-attachments/assets/a4ca1588-eb70-4bb6-9412-1832c6056cfc)
 
-![Uploading screencapture-localhost-supermarket-cart-display-php-2024-11-09-16_43_30.png…]()
+![screencapture-localhost-supermarket-cart-display-php-2024-11-09-16_43_30](https://github.com/user-attachments/assets/30e9c065-f3ea-4335-ba65-b6dc1662db10)
 
-![Uploading screencapture-localhost-supermarket-cart-display-php-2024-11-09-16_43_20.png…]()
+![screencapture-localhost-supermarket-cart-display-php-2024-11-09-16_43_20](https://github.com/user-attachments/assets/808819c9-7fee-4848-9c67-dc36171ebcca)
+
+
 
 
 ## Overview
